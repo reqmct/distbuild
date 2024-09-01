@@ -1,4 +1,4 @@
-module distbuild
+module github.com/reqmct/distbuild
 
 go 1.22.0
 

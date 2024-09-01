@@ -4,13 +4,13 @@ package client
 
 import (
 	"context"
-	"distbuild/pkg/api"
-	"distbuild/pkg/filecache"
 	"errors"
+	"github.com/reqmct/distbuild/pkg/api"
+	"github.com/reqmct/distbuild/pkg/filecache"
 	"go.uber.org/zap"
 	"path/filepath"
 
-	"distbuild/pkg/build"
+	"github.com/reqmct/distbuild/pkg/build"
 )
 
 type Client struct {

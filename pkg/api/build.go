@@ -3,7 +3,7 @@ package api
 import (
 	"context"
 
-	"distbuild/pkg/build"
+	"github.com/reqmct/distbuild/pkg/build"
 )
 
 type BuildRequest struct {

@@ -3,8 +3,8 @@
 package api
 
 import (
-	"distbuild/pkg/build"
 	"encoding/json"
+	"github.com/reqmct/distbuild/pkg/build"
 	"go.uber.org/zap"
 	"io"
 	"net/http"

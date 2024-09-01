@@ -5,10 +5,10 @@ package api
 import (
 	"bytes"
 	"context"
-	"distbuild/pkg/build"
 	"encoding/json"
 	"errors"
 	"fmt"
+	"github.com/reqmct/distbuild/pkg/build"
 	"go.uber.org/zap"
 	"io"
 	"net/http"

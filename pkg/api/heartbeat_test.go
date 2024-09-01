@@ -11,9 +11,9 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.uber.org/zap/zaptest"
 
-	"distbuild/pkg/api"
-	"distbuild/pkg/api/mock"
-	"distbuild/pkg/build"
+	"github.com/reqmct/distbuild/pkg/api"
+	"github.com/reqmct/distbuild/pkg/api/mock"
+	"github.com/reqmct/distbuild/pkg/build"
 )
 
 //go:generate mockgen -package mock -destination mock/heartbeat.go . HeartbeatService

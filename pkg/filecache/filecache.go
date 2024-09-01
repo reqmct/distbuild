@@ -6,8 +6,8 @@ import (
 	"os"
 	"path/filepath"
 
-	"distbuild/pkg/artifact"
-	"distbuild/pkg/build"
+	"github.com/reqmct/distbuild/pkg/artifact"
+	"github.com/reqmct/distbuild/pkg/build"
 )
 
 var (

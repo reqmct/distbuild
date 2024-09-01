@@ -9,7 +9,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"distbuild/pkg/build"
+	"github.com/reqmct/distbuild/pkg/build"
 )
 
 var singleWorkerConfig = &Config{WorkerCount: 1}

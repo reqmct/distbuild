@@ -8,8 +8,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"distbuild/pkg/artifact"
-	"distbuild/pkg/build"
+	"github.com/reqmct/distbuild/pkg/artifact"
+	"github.com/reqmct/distbuild/pkg/build"
 )
 
 type testCache struct {

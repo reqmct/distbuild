@@ -4,13 +4,13 @@ package artifact
 
 import (
 	"context"
-	"distbuild/pkg/tarstream"
 	"errors"
 	"fmt"
+	"github.com/reqmct/distbuild/pkg/tarstream"
 	"io"
 	"net/http"
 
-	"distbuild/pkg/build"
+	"github.com/reqmct/distbuild/pkg/build"
 )
 
 // Download artifact from remote cache into local cache.

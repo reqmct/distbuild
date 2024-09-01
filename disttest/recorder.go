@@ -1,7 +1,7 @@
 package disttest
 
 import (
-	"distbuild/pkg/build"
+	"github.com/reqmct/distbuild/pkg/build"
 )
 
 type JobResult struct {

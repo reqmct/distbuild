@@ -4,17 +4,17 @@ package dist
 
 import (
 	"context"
-	"distbuild/pkg/api"
-	"distbuild/pkg/build"
 	"errors"
+	"github.com/reqmct/distbuild/pkg/api"
+	"github.com/reqmct/distbuild/pkg/build"
 	"net/http"
 	"sync"
 	"time"
 
 	"go.uber.org/zap"
 
-	"distbuild/pkg/filecache"
-	"distbuild/pkg/scheduler"
+	"github.com/reqmct/distbuild/pkg/filecache"
+	"github.com/reqmct/distbuild/pkg/scheduler"
 )
 
 type buildSpec struct {

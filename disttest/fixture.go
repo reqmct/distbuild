@@ -16,12 +16,12 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.uber.org/goleak"
 
-	"distbuild/pkg/api"
-	"distbuild/pkg/artifact"
-	"distbuild/pkg/client"
-	"distbuild/pkg/dist"
-	"distbuild/pkg/filecache"
-	"distbuild/pkg/worker"
+	"github.com/reqmct/distbuild/pkg/api"
+	"github.com/reqmct/distbuild/pkg/artifact"
+	"github.com/reqmct/distbuild/pkg/client"
+	"github.com/reqmct/distbuild/pkg/dist"
+	"github.com/reqmct/distbuild/pkg/filecache"
+	"github.com/reqmct/distbuild/pkg/worker"
 	"gitlab.com/slon/shad-go/tools/testtool"
 
 	"go.uber.org/zap"

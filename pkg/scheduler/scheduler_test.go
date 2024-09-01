@@ -11,9 +11,9 @@ import (
 	"go.uber.org/goleak"
 	"go.uber.org/zap/zaptest"
 
-	"distbuild/pkg/api"
-	"distbuild/pkg/build"
-	"distbuild/pkg/scheduler"
+	"github.com/reqmct/distbuild/pkg/api"
+	"github.com/reqmct/distbuild/pkg/build"
+	"github.com/reqmct/distbuild/pkg/scheduler"
 )
 
 const (

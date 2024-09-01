@@ -3,8 +3,8 @@
 package filecache
 
 import (
-	"distbuild/pkg/build"
 	"errors"
+	"github.com/reqmct/distbuild/pkg/build"
 	"golang.org/x/sync/singleflight"
 	"io"
 	"net/http"

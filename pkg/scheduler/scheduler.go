@@ -9,8 +9,8 @@ import (
 
 	"go.uber.org/zap"
 
-	"distbuild/pkg/api"
-	"distbuild/pkg/build"
+	"github.com/reqmct/distbuild/pkg/api"
+	"github.com/reqmct/distbuild/pkg/build"
 )
 
 var TimeAfter = time.After

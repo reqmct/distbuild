@@ -7,8 +7,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"distbuild/pkg/build"
-	"distbuild/pkg/filecache"
+	"github.com/reqmct/distbuild/pkg/build"
+	"github.com/reqmct/distbuild/pkg/filecache"
 )
 
 type testCache struct {

@@ -5,8 +5,8 @@ package worker
 import (
 	"bytes"
 	"context"
-	"distbuild/pkg/build"
 	"errors"
+	"github.com/reqmct/distbuild/pkg/build"
 	"io"
 	"net/http"
 	"os"
@@ -17,9 +17,9 @@ import (
 
 	"go.uber.org/zap"
 
-	"distbuild/pkg/api"
-	"distbuild/pkg/artifact"
-	"distbuild/pkg/filecache"
+	"github.com/reqmct/distbuild/pkg/api"
+	"github.com/reqmct/distbuild/pkg/artifact"
+	"github.com/reqmct/distbuild/pkg/filecache"
 )
 
 const (

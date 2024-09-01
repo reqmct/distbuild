@@ -14,8 +14,8 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.uber.org/zap/zaptest"
 
-	"distbuild/pkg/build"
-	"distbuild/pkg/filecache"
+	"github.com/reqmct/distbuild/pkg/build"
+	"github.com/reqmct/distbuild/pkg/filecache"
 )
 
 type env struct {

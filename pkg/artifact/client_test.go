@@ -11,8 +11,8 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.uber.org/zap/zaptest"
 
-	"distbuild/pkg/artifact"
-	"distbuild/pkg/build"
+	"github.com/reqmct/distbuild/pkg/artifact"
+	"github.com/reqmct/distbuild/pkg/build"
 )
 
 func TestArtifactTransfer(t *testing.T) {

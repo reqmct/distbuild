@@ -3,8 +3,8 @@
 package artifact
 
 import (
-	"distbuild/pkg/build"
-	"distbuild/pkg/tarstream"
+	"github.com/reqmct/distbuild/pkg/build"
+	"github.com/reqmct/distbuild/pkg/tarstream"
 	"net/http"
 
 	"go.uber.org/zap"

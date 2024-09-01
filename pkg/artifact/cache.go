@@ -8,7 +8,7 @@ import (
 	"path/filepath"
 	"sync"
 
-	"distbuild/pkg/build"
+	"github.com/reqmct/distbuild/pkg/build"
 )
 
 var (

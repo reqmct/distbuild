@@ -12,7 +12,7 @@ import (
 
 	"go.uber.org/zap"
 
-	"distbuild/pkg/build"
+	"github.com/reqmct/distbuild/pkg/build"
 )
 
 type Client struct {
